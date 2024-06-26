@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/form_A work email is recommended to access _330bd4",
+      "brokenLocator": "//form[@action\u003d\u0027/realms/katalon/login-actions/authenticate?session_code\u003dRqmNxZJLD9I0Na4iY1G6DMbjaORToNb0jo0GUIjfJ18\u0026execution\u003df5fd9481-61f4-4ff1-94ce-2bfbc301145c\u0026client_id\u003dkatalon-marketing\u0026tab_id\u003dLL0pyYeOIus\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027kc-content-wrapper\u0027]/div/div[2]/div/div/div[2]/div[2]/form",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240525_014514/New Test Suite/20240525_014515/Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/form_A work email is recommended to access _330bd4_idRelative.png"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_rahul,Chrome 125.0.0.0,,,03-06-2024 16:27:54,03-06-2024 16:28:49,54.672s,FAILED
+,,,,,,,
+Test Cases/TC-Rahul,Chrome 125.0.0.0,,,03-06-2024 16:27:54,03-06-2024 16:28:49,54.599s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,03-06-2024 16:27:54,03-06-2024 16:27:57,3.065s,PASSED
+"navigateToUrl(""https://katalon.com/"")",Chrome 125.0.0.0,,,03-06-2024 16:27:57,03-06-2024 16:28:02,4.529s,PASSED
+"click(findTestObject(""Object Repository/Page_Katalon AI-augmented Software Quality _596167/a_Log in""))",Chrome 125.0.0.0,,,03-06-2024 16:28:02,03-06-2024 16:28:07,4.815s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/button_Accept All Cookies_onetrust-close-bt_a4e8e4""))",Chrome 125.0.0.0,,,03-06-2024 16:28:07,03-06-2024 16:28:49,42.076s,FAILED

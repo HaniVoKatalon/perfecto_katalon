@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite Collection" time="140.364" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="138.257" skipped="0" timestamp="25-05-2024T01:45:18" hostname="hani.vo - 193.168.1.15" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="/Users/hani.vo/Desktop/web-mobile/Reports/20240525_014514/New Test Suite/20240525_014515"/>
+         <property name="logFiles" value="/Users/hani.vo/Desktop/web-mobile/Reports/20240525_014514/New Test Suite/20240525_014515/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hani.vo - 193.168.1.15"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;124.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;7678176b-2474-4862-9dea-9f2c86e13868&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;userId&quot;: 1326028,&#xa;    &quot;organizationId&quot;: &quot;1280987&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;124.0.6367.91 (51df0e5e17a8b0a4f281c1665dbd1b8a0c6b46af-refs/branch-heads/6367@{#984})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir6240_1095284400&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;7678176b-2474-4862-9dea-9f2c86e13868&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="193.168.1.15"/>
+         <property name="sessionId" value="47bfdc440965fb42c317f6c142b22566"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC_login" time="138.172" classname="Test Cases/TC_login" status="PASSED">
+         <system-out><![CDATA[25-05-2024T01:45:18 - [TEST_CASE][PASSED] - Test Cases/TC_login: Test Cases/TC_login
+
+25-05-2024T01:45:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T01:45:18 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+25-05-2024T01:45:18 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+25-05-2024T01:45:18 - [MESSAGE][INFO] - User set preference: ['browserVersion', '124']
+
+25-05-2024T01:45:18 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1280987, tunnelId=, usingTunnel=false}']
+
+25-05-2024T01:45:18 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+25-05-2024T01:45:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T01:46:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T01:46:22 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon.com/"): Navigate to 'https://katalon.com/' successfully
+
+25-05-2024T01:46:26 - [MESSAGE][PASSED] - Navigate to 'https://katalon.com/' successfully
+
+25-05-2024T01:46:26 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+25-05-2024T01:46:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+25-05-2024T01:46:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Katalon AI-augmented Software Quality _596167/a_Log in"), 10): Object 'Object Repository/Page_Katalon AI-augmented Software Quality _596167/a_Log in' is visible
+
+25-05-2024T01:46:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Katalon AI-augmented Software Quality _596167/a_Log in' is visible
+
+25-05-2024T01:46:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalon AI-augmented Software Quality _596167/a_Log in")): Object: 'Object Repository/Page_Katalon AI-augmented Software Quality _596167/a_Log in' is clicked on
+
+25-05-2024T01:46:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalon AI-augmented Software Quality _596167/a_Log in' is clicked on
+
+25-05-2024T01:46:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/div_Continue with email")): Object: 'Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/div_Continue with email' is clicked on
+
+25-05-2024T01:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/div_Continue with email' is clicked on
+
+25-05-2024T01:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_A work email is recommended to access_15d4d4")): Object: 'Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_A work email is recommended to access_15d4d4' is clicked on
+
+25-05-2024T01:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_A work email is recommended to access_15d4d4' is clicked on
+
+25-05-2024T01:46:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_A work email is recommended to access_15d4d4"), "abcabc"): Text 'abcabc' is set on object 'Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_A work email is recommended to access_15d4d4'
+
+25-05-2024T01:46:49 - [MESSAGE][PASSED] - Text 'abcabc' is set on object 'Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_A work email is recommended to access_15d4d4'
+
+25-05-2024T01:46:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_A work email is recommended to access_a0ab30"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_A work email is recommended to access_a0ab30'
+
+25-05-2024T01:46:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_A work email is recommended to access_a0ab30'
+
+25-05-2024T01:46:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/form_A work email is recommended to access _330bd4")): Object: 'Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/form_A work email is recommended to access _330bd4' is clicked on
+
+25-05-2024T01:47:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //form[@action='/realms/katalon/login-actions/authenticate?session_code=RqmNxZJLD9I0Na4iY1G6DMbjaORToNb0jo0GUIjfJ18&execution=f5fd9481-61f4-4ff1-94ce-2bfbc301145c&client_id=katalon-marketing&tab_id=LL0pyYeOIus']'. Please recheck the objects properties to make sure the desired element is located. 
+
+25-05-2024T01:47:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/form_A work email is recommended to access _330bd4'. Try using Self-healing.
+
+25-05-2024T01:47:29 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//form[@action='/realms/katalon/login-actions/authenticate?session_code=RqmNxZJLD9I0Na4iY1G6DMbjaORToNb0jo0GUIjfJ18&execution=f5fd9481-61f4-4ff1-94ce-2bfbc301145c&client_id=katalon-marketing&tab_id=LL0pyYeOIus']'.
+
+25-05-2024T01:47:32 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='kc-content-wrapper']/div/div[2]/div/div/div[2]/div[2]/form'.
+
+25-05-2024T01:47:34 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/hani.vo/Desktop/web-mobile/Reports/Self-healing/Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/form_A work email is recommended to access _330bd4_idRelative.png
+
+25-05-2024T01:47:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/form_A work email is recommended to access _330bd4' was broken. Propose an alternative one: '//div[@id='kc-content-wrapper']/div/div[2]/div/div/div[2]/div[2]/form'.
+
+25-05-2024T01:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/form_A work email is recommended to access _330bd4' is clicked on
+
+25-05-2024T01:47:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T01:47:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-05-2024T01:45:18 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/TC_login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

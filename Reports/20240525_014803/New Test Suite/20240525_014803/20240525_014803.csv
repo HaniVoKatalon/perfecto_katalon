@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - Chrome 124.0.0.0,,,25-05-2024 01:48:04,25-05-2024 01:50:01,1m - 57.255s,PASSED
+,,,,,,,
+Test Cases/TC_login,Windows - Chrome 124.0.0.0,,,25-05-2024 01:48:04,25-05-2024 01:50:01,1m - 57.187s,PASSED
+"openBrowser("""")",Windows - Chrome 124.0.0.0,,,25-05-2024 01:48:04,25-05-2024 01:48:56,51.296s,PASSED
+"navigateToUrl(""https://katalon.com/"")",Windows - Chrome 124.0.0.0,,,25-05-2024 01:48:56,25-05-2024 01:49:00,3.996s,PASSED
+waitForPageLoad(30),Windows - Chrome 124.0.0.0,,,25-05-2024 01:49:00,25-05-2024 01:49:00,0.812s,PASSED
+"waitForElementVisible(findTestObject(""Page_Katalon AI-augmented Software Quality _596167/a_Log in""), 10)",Windows - Chrome 124.0.0.0,,,25-05-2024 01:49:00,25-05-2024 01:49:04,3.437s,PASSED
+"click(findTestObject(""Object Repository/Page_Katalon AI-augmented Software Quality _596167/a_Log in""))",Windows - Chrome 124.0.0.0,,,25-05-2024 01:49:04,25-05-2024 01:49:08,4.446s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/div_Continue with email""))",Windows - Chrome 124.0.0.0,,,25-05-2024 01:49:08,25-05-2024 01:49:12,3.369s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_A work email is recommended to access_15d4d4""))",Windows - Chrome 124.0.0.0,,,25-05-2024 01:49:12,25-05-2024 01:49:15,2.932s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_A work email is recommended to access_15d4d4""), ""abcabc"")",Windows - Chrome 124.0.0.0,,,25-05-2024 01:49:15,25-05-2024 01:49:21,6.556s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_A work email is recommended to access_a0ab30""), ""iGDxf8hSRT4="")",Windows - Chrome 124.0.0.0,,,25-05-2024 01:49:21,25-05-2024 01:49:25,3.800s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign in  Katalon Software Quality Mana_cfddb7/form_A work email is recommended to access _330bd4""))",Windows - Chrome 124.0.0.0,,,25-05-2024 01:49:25,25-05-2024 01:50:00,35.257s,PASSED
+closeBrowser(),Windows - Chrome 124.0.0.0,,,25-05-2024 01:50:00,25-05-2024 01:50:01,1.154s,PASSED

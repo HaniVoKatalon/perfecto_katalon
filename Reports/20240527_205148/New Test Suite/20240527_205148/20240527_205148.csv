@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - Chrome 124.0.0.0,,,27-05-2024 20:51:50,27-05-2024 20:52:36,45.730s,FAILED
+,,,,,,,
+Test Cases/TC_login,Windows - Chrome 124.0.0.0,,,27-05-2024 20:51:50,27-05-2024 20:52:36,45.654s,FAILED
+"openBrowser("""")",Windows - Chrome 124.0.0.0,,,27-05-2024 20:51:50,27-05-2024 20:52:19,29.128s,PASSED
+"navigateToUrl(""https://katalon.com/"")",Windows - Chrome 124.0.0.0,,,27-05-2024 20:52:19,27-05-2024 20:52:23,3.664s,PASSED
+waitForPageLoad(30),Windows - Chrome 124.0.0.0,,,27-05-2024 20:52:23,27-05-2024 20:52:24,0.756s,PASSED
+"waitForElementVisible(findTestObject(""Page_Katalon AI-augmented Software Quality _596167/a_Log in""), 10)",Windows - Chrome 124.0.0.0,,,27-05-2024 20:52:24,27-05-2024 20:52:28,4.636s,PASSED
+"click(findTestObject(""Object Repository/Page_Katalon AI-augmented Software Quality _596167/a_Log in""))",Windows - Chrome 124.0.0.0,,,27-05-2024 20:52:28,27-05-2024 20:52:36,7.331s,FAILED

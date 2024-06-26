@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 125.0.0.0,,,03-06-2024 17:10:40,03-06-2024 17:10:54,14.414s,PASSED
+,,,,,,,
+Test Cases/tc simple,Chrome 125.0.0.0,,,03-06-2024 17:10:40,03-06-2024 17:10:54,14.297s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 125.0.0.0,,,03-06-2024 17:10:40,03-06-2024 17:10:51,11.083s,PASSED
+delay(3),Chrome 125.0.0.0,,,03-06-2024 17:10:51,03-06-2024 17:10:54,3.027s,PASSED
